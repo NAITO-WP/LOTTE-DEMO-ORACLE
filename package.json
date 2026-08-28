@@ -1,22 +1,13 @@
 {
-  "name": "lotte-demo",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "lotte-demo-oracle",
+  "version": "2.0.0",
+  "description": "Lottery statistical analysis and ranking demo. Not a guaranteed predictor.",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js",
+    "test": "node --test"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/NAITO-WP/LOTTE-DEMO.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/NAITO-WP/LOTTE-DEMO/issues"
-  },
-  "homepage": "https://github.com/NAITO-WP/LOTTE-DEMO#readme",
+  "engines": { "node": ">=20" },
   "dependencies": {
     "cors": "^2.8.6",
     "express": "^5.2.1"
